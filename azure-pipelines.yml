@@ -23,6 +23,20 @@ steps:
     # Set Up and write .properties file
     echo  -e "\n~~~\nSetting up and creating soatestcli.properties file.\n"
     echo $"
+    dtp.url=$(license.server.url)
+    dtp.user=admin
+    dtp.password=$(license.server.password)
+    dtp.share.enabled=true
+    dtp.project=ADO_1
+    report.dtp.publish=true
+    techsupport.advanced=false
+    techsupport.auto_creation=true
+    techsupport.item.environment=true
+    techsupport.item.general=true
+    techsupport.archive_location=/temp
+    techsupport.send_email=false
+    techsupport.verbose=true
+    techsupport.verbose.scontrol=false
     license.network.auth.enabled=true  
     license.network.password=$(license.server.password)
     license.network.url=$(license.server.url)
@@ -55,18 +69,31 @@ steps:
     -resource /$(soatest.project) \
     -config 'user://Example Configuration' \
     -settings /temp/soatestcli.properties \
-    -report /temp"
-
+    -publish \
+    -report /temp" \
+    docker ps \
     echo -e "\nDebug -- Verify ./temp contents\n"
     ls -R $(pwd)/temp
   displayName: Run Tests
   env:
     pwd: $(Build.Repository.LocalPath)
   
+- publish: /home/vsts/work/1/s/temp
+  artifact: TSA
 # Publish Test Results
+
 - task: PublishParasoftTestResults@1
   
   displayName: Publish SOAtest Test Results
   inputs:
     testRunner: 'SOAtest9x'
     testResultsFiles: '$(Build.Repository.LocalPath)/temp/rep*.xml'
+
+- task: AzureFileCopy@5
+  inputs:
+    SourcePath: '*'
+    azureSubscription: 'Pay-As-You-Go(c7a8da78-e630-465a-9166-347c7d4150ac)'
+    Destination: 'AzureBlob'
+    storage: 'adoproject'
+    ContainerName: 'S1'
+# docker cp $(System.DefaultWorkingDirectory) ctp20212-ltc-cam-1:/tmp/root/parasoft/techsupport/
