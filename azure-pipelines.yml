@@ -18,7 +18,7 @@ steps:
     mkdir temp
     echo ${PWD}
     echo "Copy SOAtest project contents to volume directory."
-    cp -R . temp/.
+    cp -R $(soatest.project) temp/.
     
     # Set Up and write .properties file
     echo  -e "\n~~~\nSetting up and creating soatestcli.properties file.\n"
@@ -50,13 +50,12 @@ steps:
     cat /temp/soatestcli.properties; \
     soatestcli \
     -settings /temp/soatestcli.properties \
-    -import /temp; \
+    -import /temp/$(soatest.project); \
     soatestcli \
-    -resource /temp \
+    -resource /$(soatest.project) \
     -config 'user://Example Configuration' \
     -settings /temp/soatestcli.properties \
-    -report /temp; \
-    ls -R"
+    -report /temp"
 
     echo -e "\nDebug -- Verify ./temp contents\n"
     ls -R $(pwd)/temp
