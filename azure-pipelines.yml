@@ -55,7 +55,8 @@ steps:
     -resource /temp \
     -config 'user://Example Configuration' \
     -settings /temp/soatestcli.properties \
-    -report /temp"
+    -report /temp; \
+    ls -R"
 
     echo -e "\nDebug -- Verify ./temp contents\n"
     ls -R $(pwd)/temp
