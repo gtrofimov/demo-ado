@@ -28,7 +28,8 @@ steps:
     license.network.url=$(license.server.url)
     license.network.use.specified.server=true
     license.network.user=admin
-    soatest.license.network.edition=automation_edition
+    soatest.license.network.edition=
+    soatest.license.custom_edition_features=RuleWizard, Command Line, SOA, Web, Server API Enabled, Message Packs, Advanced Test Generation Desktop, Requirements Traceability, API Security Testing
     soatest.license.use_network=true
     virtualize.license.network.edition=performance_server_edition
     virtualize.license.use_network=true" >> temp/soatestcli.properties
