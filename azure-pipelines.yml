@@ -65,9 +65,9 @@ steps:
     pwd: $(Build.Repository.LocalPath)
   
 # Publish Test Results
-#- task: PublishParasoftTestResults@1
-#  
-#  displayName: Publish SOAtest Test Results
-#  inputs:
-#    testRunner: 'SOAtest9x'
-#    testResultsFiles: '$(Build.Repository.LocalPath)/temp/rep*.xml'
+- task: PublishParasoftTestResults@1
+  
+  displayName: Publish SOAtest Test Results
+  inputs:
+    testRunner: 'SOAtest9x'
+    testResultsFiles: '$(Build.Repository.LocalPath)/temp/rep*.xml'
