@@ -28,7 +28,8 @@ steps:
     license.network.url=$(license.server.url)
     license.network.use.specified.server=true
     license.network.user=admin
-    soatest.license.network.edition=automation_edition
+    soatest.license.network.edition=custom_edition
+    soatest.license.custom_edition_features=RuleWizard, Command Line, SOA, Web, Server API Enabled, Message Packs, Advanced Test Generation Desktop, Requirements Traceability, API Security Testing
     soatest.license.use_network=true
     virtualize.license.network.edition=performance_server_edition
     virtualize.license.use_network=true" >> temp/soatestcli.properties
@@ -64,9 +65,9 @@ steps:
     pwd: $(Build.Repository.LocalPath)
   
 # Publish Test Results
-- task: PublishParasoftTestResults@1
-  
-  displayName: Publish SOAtest Test Results
-  inputs:
-    testRunner: 'SOAtest9x'
-    testResultsFiles: '$(Build.Repository.LocalPath)/temp/rep*.xml'
+#- task: PublishParasoftTestResults@1
+#  
+#  displayName: Publish SOAtest Test Results
+#  inputs:
+#    testRunner: 'SOAtest9x'
+#    testResultsFiles: '$(Build.Repository.LocalPath)/temp/rep*.xml'
