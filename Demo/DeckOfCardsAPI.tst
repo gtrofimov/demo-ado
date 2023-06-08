@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAtestProject xmlVersion="5" productVersion="10.6.1" displayVersion="2022.2.2">
- <TestSuite className="webtool.test.TestSuite" version="48.15.2">
+<SOAtestProject xmlVersion="5" productVersion="10.6.2" displayVersion="2023.1.0">
+ <TestSuite className="webtool.test.TestSuite" version="49.15.2">
   <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
   </DebugAssets>
   <ReportingSettings className="webtool.test.ReportingSettings" version="1.1">
@@ -12,6 +12,8 @@
   </EnvironmentConfiguration>
   <enabled>true</enabled>
   <name>Test Suite</name>
+  <rootTestSuite spDataVersion="10.6.2">true</rootTestSuite>
+  <lastModifiedBy spDataVersion="10.6.2">gtrofimov</lastModifiedBy>
   <TestSuitePerformanceOptions className="webtool.test.performance.TestSuitePerformanceOptions" version="1.5">
    <APMPerformanceProfileProviderContainer className="webtool.test.performance.apm.APMPerformanceProfileProviderContainer" version="1.1">
    </APMPerformanceProfileProviderContainer>
@@ -86,7 +88,7 @@
   <maxProfileMappingID>1</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
-  <nextIdentifier>15</nextIdentifier>
+  <nextIdentifier>16</nextIdentifier>
   <testsSize>1</testsSize>
   <RESTClientToolTest className="webtool.soap.http.RESTClientToolTest" version="2.1.4.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
@@ -243,7 +245,7 @@
     </NameValueProperties>
     <MultiValue className="webtool.data.MultiValue" version="1.5">
      <StringTestValue className="webtool.data.StringTestValue" version="4.1">
-      <HTTPClient_Endpoint>http://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1</HTTPClient_Endpoint>
+      <HTTPClient_Endpoint>http://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=2</HTTPClient_Endpoint>
      </StringTestValue>
      <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
      </ParameterizedTestValue>
@@ -272,7 +274,7 @@
       <name>deck_count</name>
       <MultiValue className="webtool.data.MultiValue" version="1.5">
        <StringTestValue className="webtool.data.StringTestValue" version="4.1">
-        <value>1</value>
+        <value>2</value>
        </StringTestValue>
        <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
        </ParameterizedTestValue>
