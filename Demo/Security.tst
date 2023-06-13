@@ -35,17 +35,17 @@
     <variablesSize>3</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAGw1N29vb0JLZzB5L2pVdXFmQmpseFFNcjBTV3JRZHVYRGxnbS9iNEQ5TU1XR21xak1UbkFMMlpsVUhiUDR0K1lZTFhvYlV6UTZpcGgvTzJrZ0U4Q1I5ditqeW9FMnFSOUtGa3YzMW9WdGFhaz0=</value>
+     <value>AwAAAGx3MFdvSzI1YTYxdlhlai9ueTFXeGl6MTJUWW1tMWM1QVFrN21LOENRYkhVQWVCN2UvN1Y0Y1NsUXJmUDgxRys2cFd4RlBGVmFobStQZDZzeDRCd0l6TTlNOVNxNHJkWHBJSHJYU2FjS1A1Yz0=</value>
      <name>SWAGGER</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAFhmZ1FZVjBLTDZsazdPeTNnTUw5bFhOUDZMWkRTQUtqeEp5a1crT1lOT3BUandENk9qM3VjOEFqWUZ0REx5SE5KY2UvTnVKRjNsKzVBUlhXamtXVzFGdz09</value>
+     <value>AwAAAFhtcjU4M0FqVU5CKzU4ZlhQdVRBU3VVOEFaL3NEOWQzcTZKN1FZZWw2M0JocGFQcFFpaDRMMFpyOTZkUk9zSGc4UGZRUWloTm1iQ1NEY3dHbkNDcjZJQT09</value>
      <name>BASEURL_LONG</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAEBHajVNNWRocmo1cnJEWXYwNW1pNkFJRFN6ejdRYWliQ3AyUTRvRThDbWorSXd0REovYUt4cGlhN0xFTE9qNWdN</value>
+     <value>AwAAAEA4UTR3VmYyZXdaTzgzWG1qM2dBYVRzMDNPVWZRMnNhcWNKQTZRK3Z3aUcxQWpNNlduaFNTcUZSQnRVRFJGNHBz</value>
      <name>BASEURL</name>
     </EnvironmentVariable>
    </Environment>
@@ -128,7 +128,7 @@
   <maxProfileMappingID>1</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
-  <nextIdentifier>19</nextIdentifier>
+  <nextIdentifier>20</nextIdentifier>
   <testsSize>1</testsSize>
   <TestSuite className="webtool.test.TestSuite" version="49.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
@@ -330,96 +330,96 @@
              <hash>8</hash>
              <name>type</name>
              <fixed>object</fixed>
-             <StringType className="webtool.soap.StringType" version="2.5.3">
-              <hash>9</hash>
+             <StringType className="webtool.soap.StringType" version="2">
+              <hash>4</hash>
              </StringType>
              <required>true</required>
             </AttributeType>
             <name>anonymous</name>
             <compositor>true</compositor>
             <AllCompositor className="webtool.soap.AllCompositor" version="2.1.3.3">
-             <hash>10</hash>
+             <hash>9</hash>
              <paramTypesSize>4</paramTypesSize>
              <ElementType className="webtool.soap.ElementType" version="2.12.3">
-              <hash>11</hash>
+              <hash>10</hash>
               <minOccurs>0</minOccurs>
               <nillable>true</nillable>
               <localName>street</localName>
               <ComplexType className="webtool.soap.ComplexType" version="2.10.3">
-               <hash>12</hash>
+               <hash>11</hash>
                <isAbstract>true</isAbstract>
                <attributesSize>1</attributesSize>
                <AttributeType className="webtool.soap.AttributeType" version="2.3.3">
-                <hash>13</hash>
+                <hash>12</hash>
                 <name>type</name>
                 <fixed>string</fixed>
-                <StringType className="webtool.soap.StringType" version="2">
-                 <hash>4</hash>
+                <StringType className="webtool.soap.StringType" version="2.5.3">
+                 <hash>13</hash>
                 </StringType>
                </AttributeType>
                <content>true</content>
-               <StringType className="webtool.soap.StringType" version="2">
-                <hash>4</hash>
+               <StringType className="webtool.soap.StringType" version="2.5.3">
+                <hash>14</hash>
                </StringType>
                <namespace>urn:parasoft:json</namespace>
                <name>String</name>
               </ComplexType>
              </ElementType>
              <ElementType className="webtool.soap.ElementType" version="2.12.3">
-              <hash>14</hash>
+              <hash>15</hash>
               <minOccurs>0</minOccurs>
               <nillable>true</nillable>
               <localName>city</localName>
               <ComplexType className="webtool.soap.ComplexType" version="2">
-               <hash>12</hash>
-              </ComplexType>
-             </ElementType>
-             <ElementType className="webtool.soap.ElementType" version="2.12.3">
-              <hash>15</hash>
-              <minOccurs>0</minOccurs>
-              <nillable>true</nillable>
-              <localName>state</localName>
-              <ComplexType className="webtool.soap.ComplexType" version="2">
-               <hash>12</hash>
+               <hash>11</hash>
               </ComplexType>
              </ElementType>
              <ElementType className="webtool.soap.ElementType" version="2.12.3">
               <hash>16</hash>
               <minOccurs>0</minOccurs>
               <nillable>true</nillable>
+              <localName>state</localName>
+              <ComplexType className="webtool.soap.ComplexType" version="2">
+               <hash>11</hash>
+              </ComplexType>
+             </ElementType>
+             <ElementType className="webtool.soap.ElementType" version="2.12.3">
+              <hash>17</hash>
+              <minOccurs>0</minOccurs>
+              <nillable>true</nillable>
               <localName>zipCode</localName>
               <ComplexType className="webtool.soap.ComplexType" version="2">
-               <hash>12</hash>
+               <hash>11</hash>
               </ComplexType>
              </ElementType>
             </AllCompositor>
            </ComplexType>
           </ElementType>
           <ElementType className="webtool.soap.ElementType" version="2.12.3">
-           <hash>17</hash>
+           <hash>18</hash>
            <minOccurs>0</minOccurs>
            <nillable>true</nillable>
            <localName>name</localName>
            <ComplexType className="webtool.soap.ComplexType" version="2">
-            <hash>12</hash>
-           </ComplexType>
-          </ElementType>
-          <ElementType className="webtool.soap.ElementType" version="2.12.3">
-           <hash>18</hash>
-           <minOccurs>0</minOccurs>
-           <nillable>true</nillable>
-           <localName>phoneNumber</localName>
-           <ComplexType className="webtool.soap.ComplexType" version="2">
-            <hash>12</hash>
+            <hash>11</hash>
            </ComplexType>
           </ElementType>
           <ElementType className="webtool.soap.ElementType" version="2.12.3">
            <hash>19</hash>
            <minOccurs>0</minOccurs>
            <nillable>true</nillable>
+           <localName>phoneNumber</localName>
+           <ComplexType className="webtool.soap.ComplexType" version="2">
+            <hash>11</hash>
+           </ComplexType>
+          </ElementType>
+          <ElementType className="webtool.soap.ElementType" version="2.12.3">
+           <hash>20</hash>
+           <minOccurs>0</minOccurs>
+           <nillable>true</nillable>
            <localName>accountNumber</localName>
            <ComplexType className="webtool.soap.ComplexType" version="2">
-            <hash>12</hash>
+            <hash>11</hash>
            </ComplexType>
           </ElementType>
          </AllCompositor>
@@ -601,7 +601,7 @@
      <hasServiceInfo>true</hasServiceInfo>
      <ServiceInfo className="webtool.tool.ServiceInfo" version="1.2">
       <StandardServiceDescriptor className="com.parasoft.service.catalog.impl.StandardServiceDescriptor" version="1.1">
-       <location>http://35.92.189.225:8090/parabank/services/bank/swagger.yaml</location>
+       <location>http://35.90.221.230:8090/parabank/services/bank/swagger.yaml</location>
       </StandardServiceDescriptor>
      </ServiceInfo>
      <JSONBuilder className="webtool.ecmascript.json.JSONBuilder" version="2">
@@ -613,7 +613,7 @@
       </JSONObjectValue>
      </JSONBuilder>
      <LocationObject className="webtool.wsdl.LocationObject" version="2">
-      <MessagingClient_SchemaLocation>http://35.92.189.225:8090/parabank/services/bank/swagger.yaml</MessagingClient_SchemaLocation>
+      <MessagingClient_SchemaLocation>${BASEURL}/parabank/services/bank/swagger.yaml</MessagingClient_SchemaLocation>
      </LocationObject>
      <MessagingSchemaElement className="webtool.soap.http.MessagingSchemaElement" version="3">
       <ElementValue className="webtool.soap.ElementValue" version="1.11.13">
@@ -1364,7 +1364,7 @@
        </UserMethod>
       </ScriptedValue>
       <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-       <value>http://35.92.189.225:8090/parabank/services/bank</value>
+       <value>http://35.90.221.230:8090/parabank/services/bank</value>
       </WadlTestValue>
      </MultiValue>
     </RESTClient>
