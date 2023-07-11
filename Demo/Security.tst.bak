@@ -358,15 +358,15 @@
                 </StringType>
                </AttributeType>
                <content>true</content>
-               <StringType className="webtool.soap.StringType" version="2.5.3">
-                <hash>14</hash>
+               <StringType className="webtool.soap.StringType" version="2">
+                <hash>4</hash>
                </StringType>
                <namespace>urn:parasoft:json</namespace>
                <name>String</name>
               </ComplexType>
              </ElementType>
              <ElementType className="webtool.soap.ElementType" version="2.12.3">
-              <hash>15</hash>
+              <hash>14</hash>
               <minOccurs>0</minOccurs>
               <nillable>true</nillable>
               <localName>city</localName>
@@ -375,7 +375,7 @@
               </ComplexType>
              </ElementType>
              <ElementType className="webtool.soap.ElementType" version="2.12.3">
-              <hash>16</hash>
+              <hash>15</hash>
               <minOccurs>0</minOccurs>
               <nillable>true</nillable>
               <localName>state</localName>
@@ -384,7 +384,7 @@
               </ComplexType>
              </ElementType>
              <ElementType className="webtool.soap.ElementType" version="2.12.3">
-              <hash>17</hash>
+              <hash>16</hash>
               <minOccurs>0</minOccurs>
               <nillable>true</nillable>
               <localName>zipCode</localName>
@@ -396,7 +396,7 @@
            </ComplexType>
           </ElementType>
           <ElementType className="webtool.soap.ElementType" version="2.12.3">
-           <hash>18</hash>
+           <hash>17</hash>
            <minOccurs>0</minOccurs>
            <nillable>true</nillable>
            <localName>name</localName>
@@ -405,7 +405,7 @@
            </ComplexType>
           </ElementType>
           <ElementType className="webtool.soap.ElementType" version="2.12.3">
-           <hash>19</hash>
+           <hash>18</hash>
            <minOccurs>0</minOccurs>
            <nillable>true</nillable>
            <localName>phoneNumber</localName>
@@ -414,7 +414,7 @@
            </ComplexType>
           </ElementType>
           <ElementType className="webtool.soap.ElementType" version="2.12.3">
-           <hash>20</hash>
+           <hash>19</hash>
            <minOccurs>0</minOccurs>
            <nillable>true</nillable>
            <localName>accountNumber</localName>
@@ -601,7 +601,7 @@
      <hasServiceInfo>true</hasServiceInfo>
      <ServiceInfo className="webtool.tool.ServiceInfo" version="1.2">
       <StandardServiceDescriptor className="com.parasoft.service.catalog.impl.StandardServiceDescriptor" version="1.1">
-       <location>http://35.90.221.230:8090/parabank/services/bank/swagger.yaml</location>
+       <location>http://35.92.189.225:8090/parabank/services/bank/swagger.yaml</location>
       </StandardServiceDescriptor>
      </ServiceInfo>
      <JSONBuilder className="webtool.ecmascript.json.JSONBuilder" version="2">
@@ -1364,7 +1364,7 @@
        </UserMethod>
       </ScriptedValue>
       <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-       <value>http://35.90.221.230:8090/parabank/services/bank</value>
+       <value>http://35.92.189.225:8090/parabank/services/bank</value>
       </WadlTestValue>
      </MultiValue>
     </RESTClient>
