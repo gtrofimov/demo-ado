@@ -68,5 +68,5 @@ steps:
 - task: PublishParasoftResults@1
   inputs:
     resultsFiles: |
-      rep*.xml
+      **/*.xml
       searchFolder: '''$(Build.Repository.LocalPath)/tmp/'
