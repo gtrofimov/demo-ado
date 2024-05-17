@@ -14,11 +14,11 @@ pool:
 steps:
 - script: |
     echo "Starting Pipeline Execution."
-    echo "Create ./temp directory for volume mount."
-    mkdir temp
+    echo "Create ./tmp directory for volume mount."
+    mkdir tmp
     echo ${PWD}
     echo "Copy SOAtest project contents to volume directory."
-    cp -R $(soatest.project) temp/.
+    cp -R $(soatest.project) tmp/.
     
     # Set Up and write .properties file
     echo  -e "\n~~~\nSetting up and creating soatestcli.properties file.\n"
@@ -27,47 +27,48 @@ steps:
     license.network.password=$(license.server.password)
     license.network.url=$(license.server.url)
     license.network.use.specified.server=true
-    license.network.user=admin
+    license.network.user=$(license.server.username)
     soatest.license.network.edition=custom_edition
     soatest.license.custom_edition_features=RuleWizard, Command Line, SOA, Web, Server API Enabled, Message Packs, Advanced Test Generation Desktop, Requirements Traceability, API Security Testing
     soatest.license.use_network=true
     virtualize.license.network.edition=performance_server_edition
-    virtualize.license.use_network=true" >> temp/soatestcli.properties
+    virtualize.license.use_network=true" >> tmp/soatestcli.properties
     echo -e "\nDebug -- Verify workspace contents.\n"
     ls -R
     echo -e "\nDebug -- Verify soatestcli.properties file contents."
-    cat temp/soatestcli.properties
+    cat tmp/soatestcli.properties
 
     # Run Docker container with mount and run tests
-    echo -e "\n~~~\nRun SOAtestCLI Docker container & mount ./temp volume.\n"
+    echo -e "\n~~~\nRun SOAtestCLI Docker container & mount ./tmp volume.\n"
     
     docker --version
 
     docker run -i \
     -u 0:0 \
     -e ACCEPT_EULA=true \
-    -v "$(pwd)/temp:/temp" \
+    -v "$(pwd)/tmp:/tmp" \
     parasoft/soavirt /bin/bash -c " \
-    cat /temp/soatestcli.properties; \
+    cat /tmp/soatestcli.properties; \
     soatestcli \
-    -settings /temp/soatestcli.properties \
-    -import /temp/$(soatest.project); \
+    -settings /tmp/soatestcli.properties \
+    -import /tmp/$(soatest.project); \
     soatestcli \
     -resource /$(soatest.project) \
     -config 'user://Example Configuration' \
-    -settings /temp/soatestcli.properties \
-    -report /temp"
+    -settings /tmp/soatestcli.properties \
+    -report /tmp"
 
-    echo -e "\nDebug -- Verify ./temp contents\n"
-    ls -R $(pwd)/temp
+    echo -e "\nDebug -- Verify ./tmp contents\n"
+    ls -R $(pwd)/tmp
   displayName: Run Tests
   env:
     pwd: $(Build.Repository.LocalPath)
-  
+
 # Publish Test Results
-- task: PublishParasoftTestResults@1
-  
-  displayName: Publish SOAtest Test Results
+- task: PublishParasoftResults@1
   inputs:
-    testRunner: 'SOAtest9x'
-    testResultsFiles: '$(Build.Repository.LocalPath)/temp/rep*.xml'
+    resultsFiles: |
+      **/rep*.xml
+      **/rep*.sarif
+      **/coverage.xml
+    searchFolder: '''$(Build.Repository.LocalPath)/temp/'
