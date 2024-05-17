@@ -69,4 +69,4 @@ steps:
   inputs:
     resultsFiles: |
       rep*.xml
-      searchFolder: '''$(Build.Repository.LocalPath)/temp/'
+      searchFolder: '''$(Build.Repository.LocalPath)/tmp/'
