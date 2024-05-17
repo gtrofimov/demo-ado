@@ -68,7 +68,5 @@ steps:
 - task: PublishParasoftResults@1
   inputs:
     resultsFiles: |
-      **/rep*.xml
-      **/rep*.sarif
-      **/coverage.xml
-    searchFolder: '''$(Build.Repository.LocalPath)/temp/'
+      rep*.xml
+      searchFolder: '''$(Build.Repository.LocalPath)/temp/'
