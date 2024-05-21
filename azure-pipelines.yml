@@ -32,7 +32,18 @@ steps:
     soatest.license.custom_edition_features=RuleWizard, Command Line, SOA, Web, Server API Enabled, Message Packs, Advanced Test Generation Desktop, Requirements Traceability, API Security Testing
     soatest.license.use_network=true
     virtualize.license.network.edition=performance_server_edition
-    virtualize.license.use_network=true" >> tmp/soatestcli.properties
+    virtualize.license.use_network=true
+    application.coverage.enabled=true
+    application.coverage.agent.url=$(cov.agent)
+    application.coverage.dtp.publish=true
+    application.coverage.images=Parabank-All;Parabank-SOAtest
+    application.coverage.includes=com/parasoft/**
+    dtp.enabled=true
+    dtp.password=$(license.server.password)
+    dtp.project=$(dtp.project)
+    dtp.url=$(dtp.url)
+    dtp.user=$(license.server.username)
+    build.id=$(build.id)" >> tmp/soatestcli.properties
     echo -e "\nDebug -- Verify workspace contents.\n"
     ls -R
     echo -e "\nDebug -- Verify soatestcli.properties file contents."
