@@ -41,7 +41,7 @@ steps:
     application.coverage.agent.url=$(cov.agent)
     application.coverage.dtp.publish=true
     application.coverage.images=Parabank_All;Parabank_SOAtest
-    application.coverage.includes=com/parasoft/parabank
+    application.coverage.includes=com/parasoft/parabank/dao/*,com/parasoft/parabank/dao/jdbc/*,com/parasoft/parabank/domain/logic/*,com/parasoft/bookstore2/*,com/parasoft/parabank/messaging/*,com/parasoft/parabank/web/form/*,com/parasoft/bookstore/*,com/parasoft/parabank/web/controller/*,com/parasoft/parabank/dao/internal/*,com/parasoft/parabank/web/*,com/parasoft/parabank/util/*,com/parasoft/parabank/test/util/*,com/parasoft/bookstore/jdbc/*,com/parasoft/parabank/web/controller/exception/*,com/parasoft/parabank/domain/*,com/parasoft/parabank/dao/test/*,com/parasoft/parabank/service/*,com/parasoft/parabank/domain/validator/*,com/parasoft/parabank/domain/logic/impl/*,com/parasoft/parabank/domain/util/*,com/parasoft/parabank/dao/jdbc/internal/*
     application.coverage.binaries=/tmp/parabank.war
     dtp.enabled=true
     dtp.password=$(license.server.password)
