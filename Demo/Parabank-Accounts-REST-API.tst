@@ -5,6 +5,11 @@
   </DebugAssets>
   <ReportingSettings className="webtool.test.ReportingSettings" version="1.1">
    <TestGRSSettings className="webtool.test.grs.TestGRSSettings" version="1.4.3">
+    <prNumbersSize>1</prNumbersSize>
+    <RequirementProperty className="com.parasoft.grs.RequirementProperty" version="1.2">
+     <requirementType>@test</requirementType>
+     <requirementID>PDA-431</requirementID>
+    </RequirementProperty>
    </TestGRSSettings>
   </ReportingSettings>
   <environmentConfig>true</environmentConfig>
@@ -12,7 +17,7 @@
    <environmentsSize>3</environmentsSize>
    <Environment className="webtool.environment.Environment" version="1">
     <name>host.internal.docker</name>
-    <variablesSize>5</variablesSize>
+    <variablesSize>7</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
      <value>AwAAAFhpRDlQT2x3S3RTSFAzNmhhK1lzSW8rQmNFb3lIWDNUd1kxMVhua3JoY2hxbkpHeDYxRTd0aXFyM0c0ZFhFU09yaDdiQ3gyalM1eGJWUXltYWNVQXg2Zz09</value>
@@ -38,10 +43,20 @@
      <value>AwAAAGxsREYrUnZDTnpTcXh6eENHLzV6dzRqbWx2YlpIV2ZldGZUTTREanA2NjVMTlBqY0NVMXJEOUdZTnlFL0xxVVMzV092ZEdlM25YL2RrV0I4bStNaFJadWdyaldBNi8xUVNXRS9RSjg0bEdxaz0=</value>
      <name>WSDL</name>
     </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
+     <value>AwAAAGxiQTRaR29pRnFnYTdacVY1eHBsRWUvc3g1dnp5Ni9YNG1NQTZvQm9BM2RURjZGR2lKYWtoSWEwTXpvRU15YVRrWEpORU1SVXNGanNuQWYxZktLZmtaMEdNbmw1Vi8vQi9NNVhYV2cxM0s1MD0=</value>
+     <name>OPENAPI</name>
+    </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
+     <value>AwAAAEA5NW8wdU82a0pONHpXSm9tMzlkbm5aUWlSUWJ0eXJncG1WZXFicy9ZMmg3bDZ0ZFpXblR5aU5keGhjczZzZ01P</value>
+     <name>BASEURL_2</name>
+    </EnvironmentVariable>
    </Environment>
    <Environment className="webtool.environment.Environment" version="1">
     <name>localhost:18080</name>
-    <variablesSize>5</variablesSize>
+    <variablesSize>7</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
      <value>AwAAAFhMOUxVRzJ2MDRML1hjcTJBbFNzQUNEUllZZ3BoN3N4OGFOakF5VUN2cHUzZ0dwZGJidU9MVEV6ck81VGxtdkhxcWk0MXRiU2tyVDJTeHRQTkRJeUwvQT09</value>
@@ -67,11 +82,21 @@
      <value>AwAAAFhvdnhzZGlMdjVYZHZvZHpnRUhKelNSVjhkTWxOcEcwNzhJTFp5eHBWQXNFTktFVjAzVzVvSmdZelAxWHZnTGozMWJwWWJvUTdSdis4UXJsdW42cDh4UT09</value>
      <name>WSDL</name>
     </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
+     <value>AwAAAGxiQTRaR29pRnFnYTdacVY1eHBsRWUvc3g1dnp5Ni9YNG1NQTZvQm9BM2RURjZGR2lKYWtoSWEwTXpvRU15YVRrWEpORU1SVXNGanNuQWYxZktLZmtaMEdNbmw1Vi8vQi9NNVhYV2cxM0s1MD0=</value>
+     <name>OPENAPI</name>
+    </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
+     <value>AwAAAEA5NW8wdU82a0pONHpXSm9tMzlkbm5aUWlSUWJ0eXJncG1WZXFicy9ZMmg3bDZ0ZFpXblR5aU5keGhjczZzZ01P</value>
+     <name>BASEURL_2</name>
+    </EnvironmentVariable>
    </Environment>
    <Environment className="webtool.environment.Environment" version="1">
     <name>aws</name>
     <active>true</active>
-    <variablesSize>5</variablesSize>
+    <variablesSize>7</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
      <value>AwAAAFhkSXNkRllrT0VQQ1VCMlIwY1R6M3J6Q1dIdEgzek00VFBwdjBsdVdIcVRIRzZXZzJtRVhneFQ3aGZuZ0hQRGFZNG54THNPMHUxeVBRVGowTlNadnR0dz09</value>
@@ -97,12 +122,41 @@
      <value>AwAAAGxLMDhUT2YyS0pkMmFXOEJVQXFIYzR4eEhkOXNPRThKZzg0bGxvQU9wOU1ueStLWCtkdFh0bVFrVThiN25EWjFDS2x6VWNubzd5UnFydmpzYW5DSXFLdzh1THBya24rZStiMUk5MkM3YzJ0MD0=</value>
      <name>WSDL</name>
     </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
+     <value>AwAAAGxiQTRaR29pRnFnYTdacVY1eHBsRWUvc3g1dnp5Ni9YNG1NQTZvQm9BM2RURjZGR2lKYWtoSWEwTXpvRU15YVRrWEpORU1SVXNGanNuQWYxZktLZmtaMEdNbmw1Vi8vQi9NNVhYV2cxM0s1MD0=</value>
+     <name>OPENAPI</name>
+    </EnvironmentVariable>
+    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
+     <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
+     <value>AwAAAEA5NW8wdU82a0pONHpXSm9tMzlkbm5aUWlSUWJ0eXJncG1WZXFicy9ZMmg3bDZ0ZFpXblR5aU5keGhjczZzZ01P</value>
+     <name>BASEURL_2</name>
+    </EnvironmentVariable>
    </Environment>
   </EnvironmentConfiguration>
   <enabled>true</enabled>
   <name>Test Suite</name>
   <rootTestSuite>true</rootTestSuite>
   <lastModifiedBy>gtrofimov</lastModifiedBy>
+  <authentications size="1">
+   <BasicAuthentication className="webtool.security.BasicAuthentication" index="0" version="1.1.1.1">
+    <name>Basic</name>
+    <MultiValue className="webtool.data.MultiValue" version="1.5">
+     <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+      <username>purchaser</username>
+     </StringTestValue>
+     <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+     </ParameterizedTestValue>
+    </MultiValue>
+    <MultiValue className="webtool.data.MultiValue" version="1.5">
+     <PasswordTestValue className="webtool.data.PasswordTestValue" version="1.1">
+      <password>AwAAACx4YXhJU3NQdUtXUkFoUCtIMld0c1lib0JWN3EwSW9ialFiaXhxWndPMi9vPQ==</password>
+     </PasswordTestValue>
+     <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+     </ParameterizedTestValue>
+    </MultiValue>
+   </BasicAuthentication>
+  </authentications>
   <TestSuitePerformanceOptions className="webtool.test.performance.TestSuitePerformanceOptions" version="1.5">
    <APMPerformanceProfileProviderContainer className="webtool.test.performance.apm.APMPerformanceProfileProviderContainer" version="1.1">
    </APMPerformanceProfileProviderContainer>
@@ -225,7 +279,7 @@
   </TestSuiteLoadTestOptions>
   <SetupTeardownOptions className="webtool.test.SetupTeardownOptions" version="1.1">
   </SetupTeardownOptions>
-  <notes>Created from: http://localhost:18080/parabank/services/bank/swagger.yaml
+  <notes>Created from: http://localhost:18080/parabank/services/bank/swagger.yaml&#xD;
 Timestamp: 2021-03-10 20:06:27</notes>
   <browserOptions>true</browserOptions>
   <TestSuiteBrowserTestingOptions className="webtool.test.TestSuiteBrowserTestingOptions" version="1.15">
@@ -285,7 +339,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
    </SOAPRPCToolOptions>
   </TestSuiteSoapClientOptions>
   <profileMappingID>0</profileMappingID>
-  <maxProfileMappingID>68</maxProfileMappingID>
+  <maxProfileMappingID>69</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
   <setUpTestsSize>1</setUpTestsSize>
@@ -1797,6 +1851,737 @@ Timestamp: 2021-03-10 20:06:27</notes>
         <CustomTransportConfigurationImpl className="com.parasoft.extension.CustomTransportConfigurationImpl" version="2.1.6">
          <ConfigClassName>com.parasoft.soavirt.transport.kafka.KafkaTransport</ConfigClassName>
          <CustomValueMap className="com.parasoft.extension.CustomValueMap" version="1.2">
+          <customValueMaps size="27">
+           <key index="0">brokers</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="0" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="1">commit_offsets</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="1" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="2">consumer_settings_path</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="2" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="3">consumer_timeout</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="3" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="4">group_id</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="4" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="5">idempotent</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="5" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="6">key_password</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="6" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="7">keystore_file</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="7" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="8">keystore_password</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="8" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="9">keystore_type</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="9" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="10">log_level</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="10" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="11">max_poll_records</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="11" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="12">offset</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="12" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="13">partition</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="13" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="14">poll_interval</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="14" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="15">producer_request_timeout</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="15" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="16">producer_settings_path</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="16" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="17">record_key</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="17" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="18">record_key_serializer</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="18" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="19">security_protocol</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="19" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="20">security_provider</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="20" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="21">tls_protocol</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="21" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="22">topic</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="22" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="23">topic_partition</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="23" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="24">truststore_file</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="24" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="25">truststore_password</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="25" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+           <key index="26">truststore_type</key>
+           <MultiValueCustomValue className="webtool.extension.MultiValueCustomValue" index="26" version="1.2">
+            <MultiValue className="webtool.data.MultiValue" version="1.5">
+             <StringTestValue className="webtool.data.StringTestValue" version="4.1">
+             </StringTestValue>
+             <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
+             </ParameterizedTestValue>
+             <valuesSize>1</valuesSize>
+             <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
+              <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
+               <code>true</code>
+               <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+                <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
+                 <useText>true</useText>
+                 <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
+                 </ScriptingTextInput>
+                </ScriptingInput>
+                <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
+                </ScriptEngineIdentifier>
+               </ScriptCode>
+               <methodId>true</methodId>
+               <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
+               </ScriptMethodIdentifier>
+              </UserMethod>
+             </ScriptedValue>
+            </MultiValue>
+           </MultiValueCustomValue>
+          </customValueMaps>
          </CustomValueMap>
          <className>com.parasoft.soavirt.transport.kafka.KafkaTransport</className>
          <name>Kafka</name>
@@ -2863,7 +3648,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
     <mimeType>text/plain</mimeType>
    </SOAPRPCTool>
   </SOAPRPCToolTest>
-  <nextIdentifier>141</nextIdentifier>
+  <nextIdentifier>150</nextIdentifier>
   <testsSize>1</testsSize>
   <TestSuite className="webtool.test.TestSuite" version="49.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
@@ -2878,6 +3663,9 @@ Timestamp: 2021-03-10 20:06:27</notes>
     </TestExecutionDelay>
     <TestExecutionDelay className="webtool.test.logic.TestExecutionDelay" version="1.2">
     </TestExecutionDelay>
+    <condition>true</condition>
+    <TestLogicVariableCondition className="webtool.test.logic.TestLogicVariableCondition" version="1.2">
+    </TestLogicVariableCondition>
     <TestDependencyLogic className="webtool.test.logic.TestDependencyLogic" version="1.2">
     </TestDependencyLogic>
    </TestLogic>
