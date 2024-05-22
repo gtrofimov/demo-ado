@@ -42,7 +42,7 @@ steps:
     application.coverage.dtp.publish=true
     application.coverage.images=Parabank_All;Parabank_SOAtest
     application.coverage.includes=com/parasoft/**
-    application.coverage.binaries=/home/vsts/work/1/s/tmp/parabank.war
+    application.coverage.binaries=/tmp/parabank.war
     dtp.enabled=true
     dtp.password=$(license.server.password)
     dtp.project=$(dtp.project)
