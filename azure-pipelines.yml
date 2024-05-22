@@ -36,7 +36,7 @@ steps:
     application.coverage.enabled=true
     application.coverage.agent.url=$(cov.agent)
     application.coverage.dtp.publish=true
-    application.coverage.images=Parabank-All;Parabank-SOAtest
+    application.coverage.images=Parabank_All;Parabank_SOAtest
     application.coverage.includes=com/parasoft/**
     dtp.enabled=true
     dtp.password=$(license.server.password)
@@ -79,5 +79,7 @@ steps:
 - task: PublishParasoftResults@1
   inputs:
     resultsFiles: |
-      **/*.xml
-      searchFolder: '''$(Build.Repository.LocalPath)/tmp/'
+      **/rep*.xml
+      **/rep*.sarif
+      **/coverage.xml
+    mergeTestResults: true
