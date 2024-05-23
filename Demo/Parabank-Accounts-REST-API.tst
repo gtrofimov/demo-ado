@@ -99,27 +99,27 @@
     <variablesSize>7</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAFhkSXNkRllrT0VQQ1VCMlIwY1R6M3J6Q1dIdEgzek00VFBwdjBsdVdIcVRIRzZXZzJtRVhneFQ3aGZuZ0hQRGFZNG54THNPMHUxeVBRVGowTlNadnR0dz09</value>
+     <value>AwAAAFhwMHdkVitvZkhUQ3ZNcDVMOFZocWdMZUdXYWVUV2hHNzFvSDBQYjh3c0NaZ3kwNnhJaXFEVWkzSDBkQ2tCOStrRjU3OEJHeXBkTTdEckZTaG9BbjlDZz09</value>
      <name>BASEURL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAFhDVVgyRmw0MEFTaVRWaEFraTJxZUJVMExNYWNtejR0SDNLeFd6NDlzdkh1NXhVaTZJOVoySnRkUEJKUTdsNkF1M3pTUUlZbEZnd0ZTcVZCM05ocGpBUT09</value>
+     <value>AwAAAFhOTUxRSVpQWHVaK2RFTnZvbG9KdlU1bGVKV2FWVTg3MU9ESy9TMGRmdWZBd3JTQXZXWm40UDlOQmhVb1M4cXJBMEhZLy9LaFpDZlZ3ZEQ4N1d1MDBMdz09</value>
      <name>ENDPOINT</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAFgyZXducnFmd1ViMnUrSENwbWp5cDZzeWlqaHNkSXI0bUtSc01kU2ZFb1Y1UDEzOUs2TDNlU1RrK0Jnbkg0bEZGaHRnRTl1QVp4eW1GVDhsU0ZoTEVjZz09</value>
+     <value>AwAAAFg1bWlsRDhQUFNobFY1Yk5QRlFvV3pCdmJHUnMvNHRHOUNQalhkQ1QwSTMzcC9jQ1Z6WlJUQ2NvL2kzcVZYaXVqV1FFM25Yb1FOUklaSEFmeWppNmU0UT09</value>
      <name>LOANURL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAGwxZ3lBdW1RenlvcVE2cFdaVUE1TDNyNHp3NzUyWG1rS1FkcVdKa0hYNWlCdFpnbW1NOVpSWUFZbUtuTXI3VEh2NjJ0NEsyRnVPYk4ydGovWnVVM0l5bjd2MVlDUzdFei9YNjVYRU5Ba0xUcz0=</value>
+     <value>AwAAAGxqckx2Y1lZM2syV3ZOU2dqbnV3VFQ1a3N5WmdXM3ZhRTY1T2Q0ajEvK3Z2R2Z3WmxKYy84cUEvMWZ4cDFuSmlOTEkxaXIzK3JXaEJOUENaK3VyQmlRbkVzM0N3OXVvSzB5cDA1TWZ4eUVHMD0=</value>
      <name>SWAGGER</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAGxLMDhUT2YyS0pkMmFXOEJVQXFIYzR4eEhkOXNPRThKZzg0bGxvQU9wOU1ueStLWCtkdFh0bVFrVThiN25EWjFDS2x6VWNubzd5UnFydmpzYW5DSXFLdzh1THBya24rZStiMUk5MkM3YzJ0MD0=</value>
+     <value>AwAAAGxIU29RMVQrdm9xNEZvZzdCNGxUQkdPZFU5RVVVVUVEYkZtempVckJPMHJEZHEwY3U3UUE2QndhOFhQajA5ZzU5QjRmenhBOGFySVNOZWQxMVBDUDRrUDY2L2tRRk51MFZTTWtYeWlsRjlPOD0=</value>
      <name>WSDL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
@@ -129,7 +129,7 @@
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAEA5NW8wdU82a0pONHpXSm9tMzlkbm5aUWlSUWJ0eXJncG1WZXFicy9ZMmg3bDZ0ZFpXblR5aU5keGhjczZzZ01P</value>
+     <value>AwAAAEB2bzR2T0VkTkhrWGpyU3FkWTh2ekhSYVJYcGhlTmNRVEp4RENOVmVJOWlXajhOZjd6K1ExZmhUODNYVm9rNEhw</value>
      <name>BASEURL_2</name>
     </EnvironmentVariable>
    </Environment>
