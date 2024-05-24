@@ -8,7 +8,7 @@
     <prNumbersSize>1</prNumbersSize>
     <RequirementProperty className="com.parasoft.grs.RequirementProperty" version="1.2">
      <requirementType>@req</requirementType>
-     <requirementID>40</requirementID>
+     <requirementID>46</requirementID>
     </RequirementProperty>
    </TestGRSSettings>
   </ReportingSettings>
@@ -334,7 +334,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
    </SOAPRPCToolOptions>
   </TestSuiteSoapClientOptions>
   <profileMappingID>0</profileMappingID>
-  <maxProfileMappingID>70</maxProfileMappingID>
+  <maxProfileMappingID>74</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
   <setUpTestsSize>1</setUpTestsSize>
@@ -421,7 +421,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
      </CustomEndpointType>
      <WsdlEndpointType className="webtool.soap.WsdlEndpointType" version="1.1.1">
       <SimpleValue className="webtool.data.SimpleValue" version="2.4">
-       <value>http://localhost:18080/parabank/services/ParaBank</value>
+       <value>http://35.91.248.65:8090/parabank/services/ParaBank</value>
       </SimpleValue>
      </WsdlEndpointType>
      <mode>2</mode>
@@ -4049,7 +4049,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
        <portTypeName>ParaBankService</portTypeName>
        <SOAPServiceAddress className="com.parasoft.ws.wsdl.SOAPServiceAddress" version="1.5">
         <portName>ParaBankServiceImplPort</portName>
-        <address>http://localhost:18080/parabank/services/ParaBank</address>
+        <address>http://35.91.248.65:8090/parabank/services/ParaBank</address>
        </SOAPServiceAddress>
        <returnParam>true</returnParam>
        <SoapParameter className="webtool.soap.SoapParameter" version="10">
@@ -4202,7 +4202,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
     <mimeType>text/plain</mimeType>
    </SOAPRPCTool>
   </SOAPRPCToolTest>
-  <nextIdentifier>152</nextIdentifier>
+  <nextIdentifier>156</nextIdentifier>
   <testsSize>1</testsSize>
   <TestSuite className="webtool.test.TestSuite" version="49.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
@@ -4945,7 +4945,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -5500,7 +5500,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -6100,7 +6100,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -6735,7 +6735,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -7545,7 +7545,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -8297,7 +8297,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -8843,7 +8843,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -9415,7 +9415,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -10045,7 +10045,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -10691,7 +10691,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -11280,7 +11280,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
@@ -13237,7 +13237,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
         </UserMethod>
        </ScriptedValue>
        <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-        <value>http://localhost:18080/parabank/services/bank</value>
+        <value>http://35.91.248.65:8090/parabank/services/bank</value>
        </WadlTestValue>
       </MultiValue>
      </RESTClient>
