@@ -21,7 +21,7 @@ steps:
     cp -R $(soatest.project) tmp/.
     
     # Get Artifacts from Jenkins
-    curl -u $(license.server.username):$(license.server.password) '$(jenkins.url)/job/Parabank-Jenkins%20(main%20branch)/lastSuccessfulBuild/artifact/parabank/target/parabank-3.0.0-SNAPSHOT.war' --output "tmp/parabank.war"
+    # curl -u $(license.server.username):$(license.server.password) '$(jenkins.url)/job/Parabank-Jenkins%20(main%20branch)/lastSuccessfulBuild/artifact/parabank/target/parabank-3.0.0-SNAPSHOT.war' --output "tmp/parabank.war"
 
     
     # Set Up and write .properties file
