@@ -42,6 +42,7 @@ steps:
     dtp.project=$(dtp.project)
     dtp.url=$(dtp.url)
     dtp.user=$(license.server.username)
+    report.dtp.publish=true
     build.id=$(build.id)" >> tmp/soatestcli.properties
     echo -e "\nDebug -- Verify workspace contents.\n"
     ls -R
