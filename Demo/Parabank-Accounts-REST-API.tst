@@ -8,7 +8,7 @@
     <prNumbersSize>1</prNumbersSize>
     <RequirementProperty className="com.parasoft.grs.RequirementProperty" version="1.2">
      <requirementType>@req</requirementType>
-     <requirementID>36</requirementID>
+     <requirementID>40</requirementID>
     </RequirementProperty>
    </TestGRSSettings>
   </ReportingSettings>
@@ -96,40 +96,35 @@
    <Environment className="webtool.environment.Environment" version="1">
     <name>aws</name>
     <active>true</active>
-    <variablesSize>7</variablesSize>
+    <variablesSize>6</variablesSize>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAFhwMHdkVitvZkhUQ3ZNcDVMOFZocWdMZUdXYWVUV2hHNzFvSDBQYjh3c0NaZ3kwNnhJaXFEVWkzSDBkQ2tCOStrRjU3OEJHeXBkTTdEckZTaG9BbjlDZz09</value>
+     <value>AwAAAFg1VitMRjQzUm5IZTFxRE5OMGwrZWkyNFloZGo0cjFHREpGUXU2S1YyT1RkRzlORU42T3kvYUdCWUM1WXE5a3B5Q0EzYmtMREQ3ZXJBZzU1V09vbTFFQT09</value>
      <name>BASEURL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAFhOTUxRSVpQWHVaK2RFTnZvbG9KdlU1bGVKV2FWVTg3MU9ESy9TMGRmdWZBd3JTQXZXWm40UDlOQmhVb1M4cXJBMEhZLy9LaFpDZlZ3ZEQ4N1d1MDBMdz09</value>
+     <value>AwAAAFh2dG5DRTVTQ3FSZzA2VHc1eExJU2V0RjBXWG5KN0c3dHhzRHdZeGFPbExOVTRjOUQ4ZC9PZXdwek9DZnlPczMzMzEzMzlWaEdLOWR6aTl4bHVEYTZiQT09</value>
      <name>ENDPOINT</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAFg1bWlsRDhQUFNobFY1Yk5QRlFvV3pCdmJHUnMvNHRHOUNQalhkQ1QwSTMzcC9jQ1Z6WlJUQ2NvL2kzcVZYaXVqV1FFM25Yb1FOUklaSEFmeWppNmU0UT09</value>
+     <value>AwAAAFhXNnNJZUFJdk9zcHFyVHpFV0ZPRWYxZ2pkaHE4RFRQZE12ODdUc21teHlsL3pUdUJWTHRuRVJjWkN6aDJMZEJLUkVhK0hUNC81bk5hem5oL0JZQmVkdz09</value>
      <name>LOANURL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAGxqckx2Y1lZM2syV3ZOU2dqbnV3VFQ1a3N5WmdXM3ZhRTY1T2Q0ajEvK3Z2R2Z3WmxKYy84cUEvMWZ4cDFuSmlOTEkxaXIzK3JXaEJOUENaK3VyQmlRbkVzM0N3OXVvSzB5cDA1TWZ4eUVHMD0=</value>
+     <value>AwAAAGxVUlp2aXlaN094WGNwYld0N2xSbWVTY2R6U2wwSmZyZUF6NE8xc3dROVZNcEpFSGxKZU1rNUJzcmE2UnBFT1lvUHBmRzJpSlJCcXZJeXZRVkc5MzJuNERrenhrcndLa0VJMEx3aHBlN3FUaz0=</value>
      <name>SWAGGER</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAGxIU29RMVQrdm9xNEZvZzdCNGxUQkdPZFU5RVVVVUVEYkZtempVckJPMHJEZHEwY3U3UUE2QndhOFhQajA5ZzU5QjRmenhBOGFySVNOZWQxMVBDUDRrUDY2L2tRRk51MFZTTWtYeWlsRjlPOD0=</value>
+     <value>AwAAAGxwVU5lTHUyaUV3OEpkb3BBMzQ0eVcvc2ZsMEVaY2xGRmVMVE02Ky9zT3kwZFp1STFDT2Z0Y0hVbElWc1F2YzFZK294ekZMRzdQYkx6NGl3ZTJRYVcwTFFOWXc0aExQbjRCQlVkVzVidFI4RT0=</value>
      <name>WSDL</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAGxiQTRaR29pRnFnYTdacVY1eHBsRWUvc3g1dnp5Ni9YNG1NQTZvQm9BM2RURjZGR2lKYWtoSWEwTXpvRU15YVRrWEpORU1SVXNGanNuQWYxZktLZmtaMEdNbmw1Vi8vQi9NNVhYV2cxM0s1MD0=</value>
-     <name>OPENAPI</name>
-    </EnvironmentVariable>
-    <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
-     <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAEB2bzR2T0VkTkhrWGpyU3FkWTh2ekhSYVJYcGhlTmNRVEp4RENOVmVJOWlXajhOZjd6K1ExZmhUODNYVm9rNEhw</value>
+     <value>AwAAAEBlUU1DWGpubXhjaWF4TWpUY09UTnJrWmdEaGZFRnEwQXJWVytSM0R0ZDlMcStCVERicWZRaGhac29QSjVHS1VW</value>
      <name>BASEURL_2</name>
     </EnvironmentVariable>
    </Environment>
