@@ -58,7 +58,7 @@ steps:
     -u 0:0 \
     -e ACCEPT_EULA=true \
     -v "$(pwd)/tmp:/tmp" \
-    parasoft/soavirt:2023.2.2 /bin/bash -c " \
+    parasoft/soavirt:latest /bin/bash -c " \
     cat /tmp/soatestcli.properties; \
     soatestcli \
     -settings /tmp/soatestcli.properties \
