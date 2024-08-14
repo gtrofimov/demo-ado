@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAtestProject xmlVersion="5" productVersion="10.7" displayVersion="2024.1.0">
+<SOAtestProject xmlVersion="5" productVersion="10.7" displayVersion="2024.1.2">
  <TestSuite className="webtool.test.TestSuite" version="49.15.2">
   <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
   </DebugAssets>
@@ -88,7 +88,7 @@
   <maxProfileMappingID>1</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
-  <nextIdentifier>21</nextIdentifier>
+  <nextIdentifier>22</nextIdentifier>
   <testsSize>1</testsSize>
   <RESTClientToolTest className="webtool.soap.http.RESTClientToolTest" version="2.1.4.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
@@ -245,7 +245,7 @@
     </NameValueProperties>
     <MultiValue className="webtool.data.MultiValue" version="1.5">
      <StringTestValue className="webtool.data.StringTestValue" version="4.1">
-      <HTTPClient_Endpoint>http://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=2</HTTPClient_Endpoint>
+      <HTTPClient_Endpoint>http://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1</HTTPClient_Endpoint>
      </StringTestValue>
      <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
      </ParameterizedTestValue>
@@ -274,7 +274,7 @@
       <name>deck_count</name>
       <MultiValue className="webtool.data.MultiValue" version="1.5">
        <StringTestValue className="webtool.data.StringTestValue" version="4.1">
-        <value>2</value>
+        <value>1</value>
        </StringTestValue>
        <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
        </ParameterizedTestValue>
