@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAtestProject xmlVersion="5" productVersion="10.7" displayVersion="2024.1.0">
+<SOAtestProject xmlVersion="5" productVersion="10.7" displayVersion="2024.1.2">
  <TestSuite className="webtool.test.TestSuite" version="49.15.2">
   <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
   </DebugAssets>
@@ -138,14 +138,14 @@
     <name>Basic</name>
     <MultiValue className="webtool.data.MultiValue" version="1.5">
      <StringTestValue className="webtool.data.StringTestValue" version="4.1">
-      <username>purchaser</username>
+      <username>john</username>
      </StringTestValue>
      <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
      </ParameterizedTestValue>
     </MultiValue>
     <MultiValue className="webtool.data.MultiValue" version="1.5">
      <PasswordTestValue className="webtool.data.PasswordTestValue" version="1.1">
-      <password>AwAAACx4YXhJU3NQdUtXUkFoUCtIMld0c1lib0JWN3EwSW9ialFiaXhxWndPMi9vPQ==</password>
+      <password>AwAAABhnUkkzRkk1WmFva3p0N0xEM3RCYm5nPT0=</password>
      </PasswordTestValue>
      <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
      </ParameterizedTestValue>
@@ -334,7 +334,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
    </SOAPRPCToolOptions>
   </TestSuiteSoapClientOptions>
   <profileMappingID>0</profileMappingID>
-  <maxProfileMappingID>77</maxProfileMappingID>
+  <maxProfileMappingID>78</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
   <setUpTestsSize>1</setUpTestsSize>
@@ -3643,7 +3643,7 @@ Timestamp: 2021-03-10 20:06:27</notes>
     <mimeType>text/plain</mimeType>
    </SOAPRPCTool>
   </SOAPRPCToolTest>
-  <nextIdentifier>160</nextIdentifier>
+  <nextIdentifier>162</nextIdentifier>
   <testsSize>1</testsSize>
   <TestSuite className="webtool.test.TestSuite" version="49.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
