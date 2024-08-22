@@ -88,7 +88,7 @@
   <maxProfileMappingID>1</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
-  <nextIdentifier>22</nextIdentifier>
+  <nextIdentifier>23</nextIdentifier>
   <testsSize>1</testsSize>
   <RESTClientToolTest className="webtool.soap.http.RESTClientToolTest" version="2.1.4.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
@@ -245,7 +245,7 @@
     </NameValueProperties>
     <MultiValue className="webtool.data.MultiValue" version="1.5">
      <StringTestValue className="webtool.data.StringTestValue" version="4.1">
-      <HTTPClient_Endpoint>http://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1</HTTPClient_Endpoint>
+      <HTTPClient_Endpoint>http://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=2</HTTPClient_Endpoint>
      </StringTestValue>
      <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
      </ParameterizedTestValue>
@@ -274,7 +274,7 @@
       <name>deck_count</name>
       <MultiValue className="webtool.data.MultiValue" version="1.5">
        <StringTestValue className="webtool.data.StringTestValue" version="4.1">
-        <value>1</value>
+        <value>2</value>
        </StringTestValue>
        <ParameterizedTestValue className="webtool.data.ParameterizedTestValue" version="3.1">
        </ParameterizedTestValue>
@@ -282,18 +282,16 @@
        <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
         <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
          <code>true</code>
-         <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+         <JythonCode className="com.parasoft.scripting.jython.JythonCode" version="2.2.1.1">
           <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
            <useText>true</useText>
            <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
            </ScriptingTextInput>
           </ScriptingInput>
-          <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
-          </ScriptEngineIdentifier>
-         </ScriptCode>
+         </JythonCode>
          <methodId>true</methodId>
-         <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
-         </ScriptMethodIdentifier>
+         <JythonMethodIdentifier className="com.parasoft.scripting.jython.JythonMethodIdentifier" version="2.1.1">
+         </JythonMethodIdentifier>
         </UserMethod>
        </ScriptedValue>
       </MultiValue>
@@ -491,18 +489,16 @@
        <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
         <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
          <code>true</code>
-         <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+         <JythonCode className="com.parasoft.scripting.jython.JythonCode" version="2.2.1.1">
           <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
            <useText>true</useText>
            <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
            </ScriptingTextInput>
           </ScriptingInput>
-          <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
-          </ScriptEngineIdentifier>
-         </ScriptCode>
+         </JythonCode>
          <methodId>true</methodId>
-         <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
-         </ScriptMethodIdentifier>
+         <JythonMethodIdentifier className="com.parasoft.scripting.jython.JythonMethodIdentifier" version="2.1.1">
+         </JythonMethodIdentifier>
         </UserMethod>
        </ScriptedValue>
       </MultiValue>
@@ -516,18 +512,16 @@
        <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
         <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
          <code>true</code>
-         <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+         <JythonCode className="com.parasoft.scripting.jython.JythonCode" version="2.2.1.1">
           <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
            <useText>true</useText>
            <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
            </ScriptingTextInput>
           </ScriptingInput>
-          <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
-          </ScriptEngineIdentifier>
-         </ScriptCode>
+         </JythonCode>
          <methodId>true</methodId>
-         <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
-         </ScriptMethodIdentifier>
+         <JythonMethodIdentifier className="com.parasoft.scripting.jython.JythonMethodIdentifier" version="2.1.1">
+         </JythonMethodIdentifier>
         </UserMethod>
        </ScriptedValue>
       </MultiValue>
@@ -541,18 +535,16 @@
        <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
         <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
          <code>true</code>
-         <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+         <JythonCode className="com.parasoft.scripting.jython.JythonCode" version="2.2.1.1">
           <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
            <useText>true</useText>
            <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
            </ScriptingTextInput>
           </ScriptingInput>
-          <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
-          </ScriptEngineIdentifier>
-         </ScriptCode>
+         </JythonCode>
          <methodId>true</methodId>
-         <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
-         </ScriptMethodIdentifier>
+         <JythonMethodIdentifier className="com.parasoft.scripting.jython.JythonMethodIdentifier" version="2.1.1">
+         </JythonMethodIdentifier>
         </UserMethod>
        </ScriptedValue>
       </MultiValue>
@@ -566,18 +558,16 @@
        <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
         <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
          <code>true</code>
-         <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+         <JythonCode className="com.parasoft.scripting.jython.JythonCode" version="2.2.1.1">
           <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
            <useText>true</useText>
            <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
            </ScriptingTextInput>
           </ScriptingInput>
-          <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
-          </ScriptEngineIdentifier>
-         </ScriptCode>
+         </JythonCode>
          <methodId>true</methodId>
-         <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
-         </ScriptMethodIdentifier>
+         <JythonMethodIdentifier className="com.parasoft.scripting.jython.JythonMethodIdentifier" version="2.1.1">
+         </JythonMethodIdentifier>
         </UserMethod>
        </ScriptedValue>
       </MultiValue>
@@ -590,18 +580,16 @@
        <ScriptedValue className="webtool.data.ScriptedValue" version="1.1">
         <UserMethod className="com.parasoft.scripting.UserMethod" version="2.2">
          <code>true</code>
-         <ScriptCode className="com.parasoft.scripting.jsr223.ScriptCode" version="2.1.1.1">
+         <JythonCode className="com.parasoft.scripting.jython.JythonCode" version="2.2.1.1">
           <ScriptingInput className="com.parasoft.scripting.ScriptingInput" version="6">
            <useText>true</useText>
            <ScriptingTextInput className="com.parasoft.scripting.ScriptingTextInput" version="1.3">
            </ScriptingTextInput>
           </ScriptingInput>
-          <ScriptEngineIdentifier className="com.parasoft.scripting.jsr223.ScriptEngineIdentifier" version="1.1">
-          </ScriptEngineIdentifier>
-         </ScriptCode>
+         </JythonCode>
          <methodId>true</methodId>
-         <ScriptMethodIdentifier className="com.parasoft.scripting.jsr223.ScriptMethodIdentifier" version="2.1.1">
-         </ScriptMethodIdentifier>
+         <JythonMethodIdentifier className="com.parasoft.scripting.jython.JythonMethodIdentifier" version="2.1.1">
+         </JythonMethodIdentifier>
         </UserMethod>
        </ScriptedValue>
       </MultiValue>
