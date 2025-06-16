@@ -37,12 +37,12 @@ steps:
     soatest.license.use_network=true
     virtualize.license.network.edition=performance_server_edition
     virtualize.license.use_network=true
-    dtp.enabled=true
+    dtp.enabled=false
     dtp.password=$(license.server.password)
     dtp.project=$(dtp.project)
     dtp.url=$(dtp.url)
     dtp.user=$(license.server.username)
-    report.dtp.publish=true
+    report.dtp.publish=false
     build.id=$(build.id)" >> tmp/soatestcli.properties
     echo -e "\nDebug -- Verify workspace contents.\n"
     ls -R
