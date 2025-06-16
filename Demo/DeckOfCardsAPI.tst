@@ -1,23 +1,16 @@
 ---
-parasoftVersion: 2024.2.0
-productVersion: 10.7.1
-schemaVersion: 1
+parasoftVersion: 2025.1.1
+productVersion: 10.7.2
+schemaVersion: 3
 suite:
   $type: TestSuite
-  hasEnvironmentConfig: true
-  enabled: true
   name: Test Suite
-  rootTestSuite: true
+  hasEnvironmentConfig: true
   lastModifiedBy: gtrofimov
-  profileMappingID: 0
-  maxProfileMappingID: 1
-  nextIdentifier: 3
   tests:
   - $type: RESTClientToolTest
-    testLogic: true
-    testID: 2
-    enabled: true
     name: REST Client
+    testID: 2
     tool:
       $type: RESTClient
       iconName: RESTClient
@@ -28,25 +21,20 @@ suite:
           writeType: true
           type:
             $type: ElementType
-            hash: 1
             localName: root
             bodyType:
               $type: ComplexType
-              hash: 2
               attributes:
-              - hash: 3
-                ns: ""
+              - ns: ""
                 name: type
                 fixed: object
                 contentType:
                   $type: StringType
-                  hash: 4
                 required: true
               name: rootType
               compositor: true
               compositorObj:
                 $type: AllCompositor
-                hash: 5
           replacedColumn: ""
           values:
           - $type: ComplexValue
@@ -78,16 +66,13 @@ suite:
           writeType: true
           type:
             $type: ElementType
-            hash: 1
             localName: ""
             bodyType:
               $type: ComplexType
-              hash: 2
               name: anonymous
               compositor: true
               compositorObj:
                 $type: SequenceCompositor
-                hash: 3
           replacedColumn: ""
           values:
           - $type: ComplexValue
